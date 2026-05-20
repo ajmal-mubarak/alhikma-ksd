@@ -240,16 +240,18 @@ export default function AdminDashboard() {
             )}
             {!loading && students.map(student => (
               <div className="student-item" key={student.id}>
-                {student.image_url
-                  ? <img src={student.image_url} alt={student.name} className="student-thumb" />
-                  : <div className="student-avatar">{student.name.charAt(0).toUpperCase()}</div>
-                }
-                <div className="student-info">
-                  <div className="sname">{student.name}</div>
-                  <div className="smeta">{student.register_number}</div>
-                  <span className={`status-badge ${student.status === 'eligible' ? 'eligible' : 'not-eligible'}`}>
-                    {student.status === 'eligible' ? 'Eligible' : 'Not Eligible'}
-                  </span>
+                <div className="student-item-top">
+                  {student.image_url
+                    ? <img src={student.image_url} alt={student.name} className="student-thumb" />
+                    : <div className="student-avatar">{student.name.charAt(0).toUpperCase()}</div>
+                  }
+                  <div className="student-info">
+                    <div className="sname">{student.name}</div>
+                    <div className="smeta">{student.register_number}</div>
+                    <span className={`status-badge ${student.status === 'eligible' ? 'eligible' : 'not-eligible'}`}>
+                      {student.status === 'eligible' ? 'Eligible' : 'Not Eligible'}
+                    </span>
+                  </div>
                 </div>
                 <div className="student-actions">
                   <button
