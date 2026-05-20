@@ -97,8 +97,8 @@ footer{text-align:center;padding:1.5rem;font-size:.78rem;color:var(--text-muted)
 .students-card h2 span{font-size:.78rem;font-weight:500;color:var(--text-muted)}
 .form-group{margin-bottom:.9rem}
 .form-group label{display:block;font-size:.72rem;font-weight:600;color:var(--text-muted);text-transform:uppercase;letter-spacing:.06em;margin-bottom:.38rem}
-.form-group input[type=text],.form-group input[type=file]{width:100%;padding:.68rem .9rem;border:1.5px solid var(--border);border-radius:8px;font-size:.9rem;font-family:inherit;outline:none;transition:border .2s}
-.form-group input[type=text]:focus{border-color:var(--green)}
+.form-group input[type=text],.form-group input[type=password],.form-group input[type=file]{width:100%;padding:.68rem .9rem;border:1.5px solid var(--border);border-radius:8px;font-size:.9rem;font-family:inherit;outline:none;transition:border .2s}
+.form-group input[type=text]:focus,.form-group input[type=password]:focus{border-color:var(--green)}
 .form-group input[type=file]{padding:.5rem .75rem;cursor:pointer}
 
 /* Radio pill group */
