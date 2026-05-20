@@ -8,6 +8,9 @@ __pycache__/
 *.egg-info/
 dist/
 build/
+# Allow frontend/dist to be committed (PythonAnywhere has no npm)
+!frontend/dist/
+!frontend/dist/**
 .eggs/
 
 # Virtual environments
