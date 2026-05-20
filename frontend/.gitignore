@@ -8,7 +8,7 @@ pnpm-debug.log*
 lerna-debug.log*
 
 node_modules
-dist
+# dist  ← removed so built files are committed for PythonAnywhere
 dist-ssr
 *.local
 
