@@ -119,8 +119,8 @@ export default function AdminDashboard() {
           <div className="admin-title-row">
             <img src="/alhikmalogo.png" alt="logo" className="brand-logo" />
             <div>
-              <h1>Alhikma Womens College</h1>
-              <div style={{ fontSize: '.75rem', opacity: .8, marginTop: '.15rem' }}>Admin Panel — Exam Result 2026</div>
+              <h1>AL HIKMA WOMEN'S COLLEGE</h1>
+              <div style={{ fontSize: '.75rem', opacity: .8, marginTop: '.15rem' }}>Admin Panel — HET Result 2026</div>
             </div>
           </div>
           <button className="logout-btn" onClick={handleLogout}>Logout</button>

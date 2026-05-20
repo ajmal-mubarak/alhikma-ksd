@@ -95,8 +95,8 @@ export default function HomePage() {
     <>
       <header className="site-header">
         <img src="/alhikmalogo.png" alt="Al Hikma Logo" className="logo-img" />
-        <h1>Alhikma Womens College</h1>
-        <p className="subtitle">Exam Result — 2026</p>
+        <h1>AL HIKMA WOMEN'S COLLEGE</h1>
+        <p className="subtitle">AL HIKMA ENTRANCE EXAM (HET) RESULT 2026</p>
         <p className="tagline">Check Your Eligibility Status Below</p>
       </header>
 
@@ -142,13 +142,13 @@ export default function HomePage() {
           </div>
           <div className="step">
             <div className="step-num">3</div>
-            <p>Your photo and <strong>eligibility status</strong> will appear in a popup</p>
+            <p>Your <strong>Result and Eligibility Status</strong> will appear</p>
           </div>
         </div>
       </div>
 
       <footer>
-        <p>© 2026 Alhikma Womens College. All rights reserved.</p>
+        <p>© 2026 AL HIKMA WOMEN'S COLLEGE. All rights reserved.</p>
       </footer>
 
       {showModal && result && (
