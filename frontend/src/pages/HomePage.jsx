@@ -46,10 +46,10 @@ function ResultModal({ student, onClose }) {
         {/* Result block */}
         <div className={`modal-result ${isEligible ? 'eligible' : 'not-eligible'}`}>
           <div className="modal-result-icon">{isEligible ? '✅' : '❌'}</div>
-          <div className="modal-result-label">{isEligible ? 'Result' : 'Result'}</div>
+          <div className="modal-result-label">{isEligible ? 'Eligible for Admission' : 'Not Eligible for Admission'}</div>
           <div className="modal-student-name">{student.name}</div>
           <div className="modal-status-badge">
-            {isEligible ? '✓ Eligible for Exam' : '✗ Not Eligible for Exam'}
+            {isEligible ? '✓ Eligible for Admission' : '✗ Not Eligible for Admission'}
           </div>
         </div>
 
