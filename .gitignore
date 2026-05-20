@@ -31,7 +31,7 @@ backend/static/
 # ── Node / React / Vite ──────────────────────────────────────
 node_modules/
 frontend/node_modules/
-frontend/dist/
+# frontend/dist/   ← DO NOT ignore: PA needs the built files
 frontend/.vite/
 frontend/build/
 
@@ -43,7 +43,8 @@ pnpm-debug.log*
 
 # ── Environment variables ─────────────────────────────────────
 .env
-.env.*
+.env.local
+!.env.production
 !.env.example
 
 # ── OS / Editor ──────────────────────────────────────────────
